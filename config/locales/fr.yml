@@ -1,0 +1,79 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  # Page title and menu items
+  page_title:                "Konsento"
+  title:                     "Konsento"
+  menu_home:                 "Home"
+  menu_about:                "About"
+  menu_project:              "Project"
+  menu_dev:                  "Development"
+  menu_contact:              "Contact"
+  menu_team:                 "Team"
+  # Slider
+  slider_title:              "Joindre!"
+  slider_subtitle:           "Cliquez ci-dessous et inscrivez-vous."
+  slider_konsento:           "Aller à Konsento.org"
+  slider_email_placeholder:  "youremail@email.com"
+  slider_send_button:        " Ok"
+  # Content columns - What is
+  what_title:                "Qu’est ce que Konsento?"
+  what_content:              "Nous sommes une Organisation Non Gouvernementale qui veut ce qu’il y a de mieux pour les personnes, pour le peuple dans son ensemble. Nous avons pour objectif de mettre em place un systeme politique numérique où les personnes pourront aider à decider comment seront faites les lois qui regissent le pays, les améliorations dans les domaines du transport public, de la santé et dans sa vie de manière generale.<br>Pour que notre argent soit, reellement, investi dans des services publics de qualités. Nous développons, fournissons, et maintendrons sur le reseau, un logiciel pour que soit discuté quelles seront ces améliorations et comment les rendre réelles.<br>Tous ceux qui auront un accès à internet pourront utiliser ce logiciel.<br>Notre serveur sera toujours disponible en libre accés pour tous. Nous voulons éviter de posssibles fraudes et actes de manipulations sur les textes et les votes. Ce moyen de discussion politique a été conçu pour qu’il n’y ait pas d’influences exterieures.<br>Comme, par exemple, de la part de grandes entreprises interessées par le vote de mesures qui n’ont pas pour objectifs de viser les personnes. En disant que ce logiciel est libre, si le sujet d’intéret général, la majorité prévaudra pour que cela arrive jusqu’aux politiques. Ainsi les interessés, le peuple, en seront les beneficiaires."
+  # Content columns - How
+  how_title:                 "Comment cela va fonctionner?"
+  how_content:               "Chaque citoyen pourra s’enregistrer. Pour eviter ces « robots » qui creent des comptes polluant le systeme et garantir que chaque utilisateur n’ait qu’un seul compte il sera necessaire de rendre disponible ses données personnelles. Une fois l’inscription faite, il sera possible d’apporter sa contribution aux « posts » déjà créés en donnant son opinion, en expliquant en quoi ceci ou cela serait un mieux pour le pays. Mais aussi, il sera possible de créer un sujet et lancer une nouvelle discussion. Le sujet devra être defendu, et il devra être fait le maximum pour convaincre les autres participants. Quand un nouveau post est créé, commence un débat entre les utilisateurs, et le texte est voté progressivement, paragraphe par paragraphe, sur base des meilleures suggestions, comme cela fonctionne pour Senat et la chambre des Députés. Une fois approuvé et un consensus obtenu, l’ONG prend la responsabilité de faire pression sur les politiques pour qu’ils analisent, discutent, et mettent le texte à l’ordre du jour. Le système permet de remplacer le systeme de democratie participative actuel, par un systeme de democratie réelle ou de democratie directe, cependant pour cela nous avons besoin de tester le systeme et d’y apporter les améliorations nécessaires, avant avant qu’il devienne un outil officiel. Pour cela, nous allons commencer par l’utiliser pour faire pression sur les politiques jusqu’à que nous ayons une representation plus importante que la chambre des deputés ou que le senat. Tous les debats seront libres sans mediateurs. Cela pour promouvoir la libre expression et discussion, qui est l’une des raisons de la création de ce logiciel. Il sera totalement « nonpartisan », impartial. Le logiciel a été developpé pour que tous, independemment de son appartenance politique, puisse s’exprimer.Les partis politiques et leurs membres auront aussi accès pour qu’ils puissent participer et suivre ce qui est discuté et, le plus important, connaitre quel est la position actuelle de la société sur un sujet."
+  # Content columns - Why
+  why_title:                 "Pourquoi cet outil?"
+  why_content:               "Pour que se créé une discussion entre les personnes, pour qu’il existe une communictaion, progressive, consensuelle et infinie.<br>Cet outil pourra aussi etre utilisé par des médecins, des scientifiques, des cadres, etc, pour prendre la meilleures decision et discuter de thèses ou de procédures etc...<br>Ainsi le Konsento peut être considéré comme une « BIG DATA » humaine, qui connecte tous les cerveaux, de manière consensuelle et progressive, recherchant le meilleur pour la société dans son sensemble, à l’écoute de tous les arguments, de tous les côtés, sans dicrimination aucune.<br><br>Cet outil peut également remplacer le système politique."
+  # Project
+  project_title:             "Help us to change the country!"
+  project_content:           "Join and help us to build a solution to intermediate between the people and the politicians.<br><br>Follow and join our project on github:<br><a href='https://github.com/konsento/institutional' target='_blank'>https://github.com/konsento/institutional</a>"
+  # Contact
+  contact_title:             "Contact us"
+  contact_content:           "For more details, contact us using the links below."
+  # Team
+  team_title:                "Team"
+  team_role_1:               "President"
+  team_role_2:               "Vice-President and Developer"
+  team_role_3:               "Developer"
+  team_role_4:               "Developer"
+  team_role_5:               "Developer"
+  team_role_6:               "Representative in Spain"
+  team_role_7:               "Representative in France"
+  team_role_8:               "Creative Director"
+  join_us:                   "Join us!"
+  read_more:                 "Click to read more"
+  # Preview
+  preview_title:             "Development"
+  preview_content:           "See below Konsento's development progress."
+  preview_groups:            "Groups"
+  preview_subgroups:         "Subgroups"
+  preview_topics:            "Topics"
+  preview_topic:             "Topic's discussion"
+  preview_comments:          "Proposal comments"
+  preview_profile:           "Profile"
+  preview_signin:            "Sign In"
+  # Footer
+  footer_name:               "Konsento - Direct Democracy Digital Progressive Consensus"
+  #Modal
+  select_lang:               "Select your language"
+  close:                     "Close"

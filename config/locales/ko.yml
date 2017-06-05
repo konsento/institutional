@@ -1,0 +1,79 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ko:
+  # Page title and menu items
+  page_title:                "진보 총의 디지털 직접 민주주의"
+  title:                     "진보 총의 디지털 직접 민주주의"
+  menu_home:                 "홈 페이지"
+  menu_about:                "약"
+  menu_project:              "계획"
+  menu_dev:                  "Development"
+  menu_contact:              "접촉"
+  menu_team:                 "Team"
+  # Slider
+  slider_title:              "에 가입하세요"
+  slider_subtitle:           "아래를 클릭하고 등록합니다"
+  slider_konsento:           "로 이동 Konsento.org"
+  slider_email_placeholder:  "email@email.com"
+  slider_send_button:        " Ok"
+  # Content columns - What is
+  what_title:                "직접 민주주의는 무엇입니까?"
+  what_content:              "우리는 브라질 국민과 브라질이 가장 발전되기를 원하는 비정부기구입니다. 우리는 당신의 인생에, 건강에, 공공교통에 더 낳은 삶을 제공하도록, 더 많은 브라질 국민들이 참여하고, 국가를 지배하는 법률들이 어떻게 결정되는지를 원조하는 데에 목표가 있습니다. 그 이유는 당신의 돈이 정말로 품질의 공공 서비스에 투자되기 위해서입니다.<br>우리는 이러한 나은 삶에 한층 더 다가가기 위해 토론의 장을 열수 있는 한 소프트웨어를 개발하였으며, 모든 사람들이 이용 가능하도록 네트워크 망에 비치 해놓았습니다.<br>우리의 서버는 네트워크 망에 항상 모든 사람들에게 접근 가능하도록 공개되어 있으며, 이런 방법으로, 우리는 잠재적인 사기, 텍스트 조작, 투표 사기를 방지할 수 있을 것입니다.<br>정치적 토론의 이러한 수단은 외부의 영향이 닿지 않도록 만들어 졌습니다. 예를 들면, 대기업들의 어떤 안건이 국민에게 영향을 끼치는 것과 같이 말입니다. 이러한 것과 관련해, 이 소프트웨어는 자유롭게 제공되며, 안건이 흥미롭다면, 대부분의 사람들은 그  안건이 정치적에게까지 전달될 수 있도록 할 것 입니다. 단지 관심 있는 정당만이 국민들에 의해 이익을 얻을 것 입니다."
+  # Content columns - How
+  how_title:                 "어떻게 운영되는지?"
+  how_content:               "각 시민은 선거권, CPF(납세번호), RG(주민등록증) 과 같은 자신의 프로필 정보를 기입하여 등록 할 수 있으며, 제목(타이틀)을 소유하는 경우, 프로페셔널 등록 번호를 알릴 수 있으며, 당신의 토론에서 확인 될 수 있습니다.<br>등록이 되었다면, 당신은 이미 게시물에 참여할 수 있으며, 국가를 위해 왜 그렇게 하는 것이 좋은 지와 같은 자신의 의견을 등록 제시 할 수 있습니다.<br>새 게시물이 만들어지면, 사용자 간의 토론이 시작되며, 텍스트(문자)는 상원의원과 하원의원이 어떻게 작동되는지 와 같은, 투표로 진행될 것 입니다. <br>승인과 합의에 도달하면, NGO(비정구기구)는 정치인들이 그 안건을 분석하고 토론하고 텍스트(문자)로 의결되도록 책임을 질 것입니다.<br>모든 토론은 매개체 없이 모두 무료 제공됩니다. 이것은 토론과 표현의 자유를 촉진하기 위한 소프트웨어 창조의 이유이기도 합니다.<br>완전하게 무소속이며, 소프트웨어는 자신의 어떤 정치적 위치와 상관없이, 모두가 표현의 자유를 누릴 수 있도록 만들어 졌습니다. 정치당 들과 계열사들 역시 토론과 논의에 접근, 동행할 수 있도록 모두에게 열려있습니다."
+  # Content columns - Why
+  why_title:                 "왜 이러한 도구를 사용하는지?"
+  why_content:               "국민들 사이에 토론을 창출하고 그것이 국가를 통치하는 자에게 그리고 우리의 진정한 의지로 가기 위해서 입니다.<br>이러한 방법으로 만이, 상원, 하원의원이 그들을 선출하는 자들의 의견을 들을 수 있게 하는 방법입니다. 그렇지 않다면, 그들은 각각 거리에 나와 어떻게 수행 개선해야 하는지  어떻게 하기를 원하는지를 물어봐야 할 것 입니다. 이 소프트웨어와 함께 그것은 상당히 쉬워질 것이며, 상원, 하원의원에게 우리를 가까이 가게 하는 방법입니다."
+  # Project
+  project_title:             "국가를 변경하는 데 도움이!"
+  project_content:           "가입하고 사람과 정치인 사이의 중간에 솔루션을 구축하는 데 도움이.<br><br>따라 GitHub에 우리의 프로젝트에 참여:<br><a href='https://github.com/konsento/institutional' target='_blank'>https://github.com/konsento/institutional</a>"
+  # Contact
+  contact_title:             "저희에게 연락하십시오"
+  contact_content:           "자세한 내용은 아래의 링크를 사용하여 저희에게 연락"
+  # Team
+  team_title:                "Team"
+  team_role_1:               "President"
+  team_role_2:               "Vice-President and Developer"
+  team_role_3:               "Developer"
+  team_role_4:               "Developer"
+  team_role_5:               "Developer"
+  team_role_6:               "Representative in Spain"
+  team_role_7:               "Representative in France"
+  team_role_8:               "Creative Director"
+  join_us:                   "Join us!"
+  read_more:                 "Click to read more"
+  # Preview
+  preview_title:             "Development"
+  preview_content:           "See below Konsento's development progress."
+  preview_groups:            "Groups"
+  preview_subgroups:         "Subgroups"
+  preview_topics:            "Topics"
+  preview_topic:             "Topic's discussion"
+  preview_comments:          "Proposal comments"
+  preview_profile:           "Profile"
+  preview_signin:            "Sign In"
+  # Footer
+  footer_name:               "Konsento - 진보 총의 디지털 직접 민주주의"
+  #Modal
+  select_lang:               "언어를 선택"
+  close:                     "가까운"

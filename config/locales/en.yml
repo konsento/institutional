@@ -1,0 +1,79 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  # Page title and menu items
+  page_title:                "Konsento"
+  title:                     "Konsento"
+  menu_home:                 "Home"
+  menu_about:                "About"
+  menu_project:              "Project"
+  menu_dev:                  "Development"
+  menu_contact:              "Contact"
+  menu_team:                 "Team"
+  # Slider
+  slider_title:              "Join!"
+  slider_subtitle:           "Click below and register."
+  slider_konsento:           "Go to Konsento.org"
+  slider_email_placeholder:  "youremail@email.com"
+  slider_send_button:        " Ok"
+  # Content columns - What is
+  what_title:                "What is Konsento?"
+  what_content:              "We are a non-governmental organization with a single objective develop a tool that allow us to have democracy by your meaning. Equal power to all citizens, everyone be listen and can speak, democracy. We all are volunteers, we aren´t connect to any organization, politician, political party or ideology; we defend democracy thru democracy.<br><br>Our goal is to give a voice to as many people as possible, helping them to decide how elaborate laws and regulations that govern, such as improvements on public transportation, health care, and their lives as a whole.<br><br>Only then, people will have their money well spent on quality public services.<br><br>We are developing and providing software where any people, who have access to the internet, can discuss how to apply those improvements and what they would be.<br>Our server is always going be available and free for everyone with read access to the web server. It will be self managed by the community."
+  # Content columns - How
+  how_title:                 "How will it work?"
+  how_content:               "Anyone can sing in and join the groups of discussion that have interest also create groups with your own requirements to join.<br><br>Once the registration is complete, people can join or create a discussion giving your opinion, comment or even vote for a paragraph and you going to be able to post links.<br><br>When a new post is created all the paragraphs up for vote, you can send new paragraphs or propose a different paragraph that also going to be up for vote. Everything is up for vote all time, each group must decide your own algorithm setup the amount necessary to consider it as a consensus. Then the system automatically arranges the discussion in a consensus.<br><br>Any debate is free without mediators. This promotes freedom of speech, expression and discussion, which are the reasons for the creation of this software."
+  # Content columns - Why
+  why_title:                 "What is this tool for?"
+  why_content:               "This tool will allow the real democracy. The decisions will be smarter, faster in a progressive consensus. <br><br>Connecting people searching for better solution for any kind of discussion. Allowing that government and people be as one.<br><br>It will allow us in a future to have a government without politicians putting an end on the corruption that makes this world misery."
+  # Project
+  project_title:             "Help us to change the World!"
+  project_content:           "Join and help us to build a solution to intermediate between the people and the politicians.<br><br>Follow and join our project on github:<br><a href='https://github.com/konsento/institutional' target='_blank'>https://github.com/konsento/institutional</a>"
+  # Contact
+  contact_title:             "Contact us"
+  contact_content:           "For more details, contact us using the links below."
+  # Team
+  team_title:                "Team"
+  team_role_1:               "President"
+  team_role_2:               "Vice-President and Developer"
+  team_role_3:               "Developer"
+  team_role_4:               "Developer"
+  team_role_5:               "Developer"
+  team_role_6:               "Representative in Spain"
+  team_role_7:               "Representative in France"
+  team_role_8:               "Creative Director"
+  join_us:                   "Join us!"
+  read_more:                 "Click to read more"
+  # Preview
+  preview_title:             "Development"
+  preview_content:           "See below Konsento's development progress."
+  preview_groups:            "Groups"
+  preview_subgroups:         "Subgroups"
+  preview_topics:            "Topics"
+  preview_topic:             "Topic's discussion"
+  preview_comments:          "Proposal comments"
+  preview_profile:           "Profile"
+  preview_signin:            "Sign In"
+  # Footer
+  footer_name:               "Konsento - Direct Democracy Digital Progressive Consensus"
+  #Modal
+  select_lang:               "Select your language"
+  close:                     "Close"

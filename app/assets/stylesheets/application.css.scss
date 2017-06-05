@@ -1,0 +1,322 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
+@media (max-width: 992px) {
+  .newsletter {
+    padding-bottom: 70px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .glyphicon {
+    display: none;
+  }
+  .navbar-inverse .navbar-collapse{
+    background: #192A45;
+  }
+  .navbar-inverse .navbar-toggle,.navbar-inverse .navbar-toggle:hover{
+    border: #192A45 1px solid;
+    background: #476390 !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 26px !important;
+  }
+}
+
+
+body{
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo-link {
+  position: relative;
+  .k-logo {
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  span {
+    position: absolute;
+    left: 60px;
+  }
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.btn-black {
+  color: #fff;
+  background-color: #262626;
+  border-color: #ddd;
+  border-radius: 0;
+}
+.btn-black:hover{
+  color: #fff;
+  background-color: #2A2A2A;
+}
+.navbar {
+  padding-top: 10px;
+  height: 70px;
+  background: rgba(0,40,110,0.7);
+  border: none;
+}
+
+.navbar-inverse {
+  .navbar-brand{
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    font-size: 28px;
+  }
+  .navbar-nav {
+    li {
+      a {
+        font-weight: 100;
+        font-size: 20px;
+        color:#fff;
+      }
+      a:hover {
+        color:#b4b9b9;
+      }
+    }
+  }
+}
+
+
+.slider{
+  background: url("../img/background.jpg") center no-repeat;
+}
+
+.slider-pt{
+    background: url("../img/background_pt.jpg") center no-repeat;
+}
+
+.newsletter {
+  height: auto;
+  background: rgba(0,0,0,0.6);
+  padding: 10px;
+  .title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .subtitle{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  input{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  button {
+    height: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    background: #fff;
+    vertical-align: top;
+    border-radius: 0;
+  }
+  .form {
+    button:hover {
+      color: #476390;
+    }
+  }
+}
+
+#ok-button {
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+
+#about{
+  padding: 70px 0;
+  .container {
+    div {
+      text-align: center;
+      .title{
+        margin: 10px 0;
+        text-align: center;
+      }
+      .text{
+        text-align: justify;
+      }
+    }
+  }
+}
+
+
+#project {
+  padding: 70px 0;
+  background: #476390;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  p {
+    margin-top: 0px;
+    color: #fefefe;
+    a, a:hover {
+      color:#CAF4ED;
+    }
+  }
+}
+
+#contact {
+  padding: 70px 0;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  p {
+    margin-top: 0px;
+    color: #333;
+  }
+  .social {
+    margin-top: 30px;
+    text-align: center;
+  }
+  button {
+    margin-top: 10px;
+  }
+}
+
+#team {
+  padding: 70px 0;
+  background: #476390;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .contributor {
+    color: #fff;
+    text-align: center;
+    div {
+      margin-bottom: 5px;
+    }
+    .image {
+      height: 200px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      margin-top: 40px;
+    }
+    .role {
+      font-weight: bold;
+    }
+    .links {
+      img {
+        height: 30px;
+      }
+    }
+  }
+}
+
+#preview {
+  padding: 70px 0;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  p {
+    margin-top: 0px;
+    color: #333;
+  }
+  .image{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .image img{
+    border: 1px solid #bbb;
+  }
+  .image img:hover{
+    border: 1px solid #928D8D;
+  }
+}
+
+footer {
+  .row {
+    background: #476390;
+    padding: 10px 0;
+  }
+  p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+.modal {
+  position: absolute;
+}
+
+body.modal-open {
+  .navbar.navbar-inverse.navbar-fixed-top {
+    right: 15px;
+  }
+}
+
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}

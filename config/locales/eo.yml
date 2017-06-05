@@ -1,0 +1,79 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+eo:
+  # Page title and menu items
+  page_title:                "Konsento"
+  title:                     "Konsento"
+  menu_home:                 "Ĉefpaĝo"
+  menu_about:                "Pri"
+  menu_project:              "Projekto"
+  menu_dev:                  "Ellaborado"
+  menu_contact:              "Kontakto"
+  menu_team:                 "Teamo"
+  # Slider
+  slider_title:              "Aliĝi!"
+  slider_subtitle:           "Klaku sube kaj registri."
+  slider_konsento:           "Iru Konsento.org"
+  slider_email_placeholder:  "viaretadreso@retposhto.com"
+  slider_send_button:        " Okej"
+  # Content columns - What is
+  what_title:                "KIO ESTAS KONSENTO?"
+  what_content:              "Ni estas ne-registara, ne-profitcela organizaĵo kies sola celo estas disvolvi ilon kiu ebligu la demokration. Ni ligiĝas al neniu movado, partio aŭ registaro. Ni ĉiuj estas volontuloj serĉantaj rimedon kiu evoluigu por la interreta erao la arkaikan sistemon de parlamento.<br>Ni disvolvas, disponigas kaj funkciigos enretan programon kiu estos malfermitkoda. Se vi estas programisto, eniru en nia github-konto kaj helpu kontroli kaj disvolvi la ilon.<br>Nia servilo estos ĉiam disponebla por legado far ĉiuj. Tiel ni sukcesos eviti eblajn fraŭdojn, manipulojn en tekstoj kaj voĉdonadoj. Ekzistos plena videbleco de la ilo kaj plena partopreno de la komunumo. La ilo estos kontrolita de la propra komunumo."
+  # Content columns - How
+  how_title:                 "KIEL FUNKCIOS?"
+  how_content:               "Ĉiu persono povos krei sian registron kaj eniri la grupojn pri kiuj li/ŝi interesiĝas. Eblos krei privatajn grupojn, ĉiu grupo kun siaj kriterioj.<br>La grupoj dekomence dividiĝos en Politiko (leĝoj kaj agadoj mondskale, laŭlande, ŝtato, urbo) – Informo (tezoj, sciencaj kongresoj, edukado, sanservoj, nutrado) – LIBERTEMA (amuzo, arto, aliaj)<br>Post registriĝo, vi povos partopreni la ekzistantajn diskutojn per opinioj kaj voĉdonado en la paragrafoj. Eblos ankaŭ krei novan temon kaj komenci alian diskuton surbaze de tio kion vi defendos kaj pere de konvinkiga enhavo, kiel ligiloj, libroj, artikoloj.<br>Kiam kreiĝas nova temo, komenciĝas la diskuto inter la uzantoj kaj la paragrafoj iras al voĉdonado, samkiel funkcias ĉe la parlamentoj, tamen enrete, t.e., la diskuto estos senfina kaj ĉio estos en konstanta tagordo, liverante tiel la aktualan konsenton de la komunumo rilate tiun temon.<br>Ĉiuj kaj ĉiaj debatoj estos liberaj, sen perantoj. Tio spronas liberesprimon kaj diskutemon, kio estas unu el la celoj de la kreado de ĉi programo.<br>La programo estis disvolvita por ke ĉiuj, sendepende de politika pozicio, povu sin esprimi."
+  # Content columns - Why
+  why_title:                 "KIUCELE TIU ILO?"
+  why_content:               "Por ke la demokratio estu farita en sia plena formo. Sen perantoj. Por ke la decidoj estu pli inteligentaj, konektante pli da homoj kaj serĉante pli da solvoj por la diskutoj. Por ke la registaro kaj la popolo estu ununura elemento.<br>Ĝi ebligos al ni havi registaron sen politikistoj, finante tiel la korupton porĉiame. Por ke tio realiĝu, ni bezonas homojn en la sistemo, por ke tiam, per demokratia formo, la regopovo estu anstataŭigita."
+  # Project
+  project_title:             "Venu kun ni ŝanĝi la landon!"
+  project_content:           "Se vi estas kreema pri .psd, .AI aŭ pri iu ajn alia programo pri redaktado de bildoj kaj videoj. Se vi estas vort-magiisto kaj verkas tekston kompreneblan al ĉiuj. Aŭ kiu havas kuraĝon ŝanĝi la politikon de Brazilo. Venu partopreni en la projekto de la NRO REKTA ENRETA DEMOKRATIO PROGRESIVA KONSENTO kaj helpi efektivigi ĝin. Ni bezonas volontulojn kiu deziras kunlabori kun ĉiuj brazilanoj pere de enreta ilo kiu utilos kiel peranto inter la popolo kaj la politikistoj. Akompanu kaj partoprenu en nia projekto ĉe github:<br><a href='https://github.com/konsento/institutional' target='_blank'>https://github.com/konsento/institutional</a>"
+  # Contact
+  contact_title:             "Kontaktu nin!"
+  contact_content:           "Ĉu vi ne komprenis aŭ ŝatus konversacii kun ni? Ne hezitu kontakti nin pere de la subaj ligiloj"
+  # Team
+  team_title:                "Teamo"
+  team_role_1:               "Prezidanto"
+  team_role_2:               "Vicprezidanto kaj Ellaboranto"
+  team_role_3:               "Ellaboranto"
+  team_role_4:               "Ellaboranto"
+  team_role_5:               "Ellaboranto"
+  team_role_6:               "Reprezentanto en Hispanio"
+  team_role_7:               "Reprezentanto en Francio"
+  team_role_8:               "Kreiva Direktoro"
+  join_us:                   "Aliĝi nin!"
+  read_more:                 "Klaku por legi pli"
+  # Preview
+  preview_title:             "Ellaborado"
+  preview_content:           "Vidu malsupre la progreson de la ellaborado de Konsento"
+  preview_groups:            "Grupoj"
+  preview_subgroups:         "Subgrupoj"
+  preview_topics:            "Temoj"
+  preview_topic:             "Tem-diskuto"
+  preview_comments:          "Komentoj pri la propono"
+  preview_profile:           "Profilo"
+  preview_signin:            "Ensaluti"
+  # Footer
+  footer_name:               "Konsento - Rekta Demokratio"
+  #Modal
+  select_lang:               "Select your language"
+  close:                     "Close"

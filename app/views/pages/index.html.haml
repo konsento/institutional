@@ -1,0 +1,227 @@
+.navbar.navbar-inverse.navbar-fixed-top{role: "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: "#slider", id: "logo-link"}
+        %img{:src => "/img/konsento-logo.png", :alt => "Konsento", :class => "k-logo"}/
+        %span Konsento
+    .collapse.navbar-collapse.navbar-right
+      %ul.nav.navbar-nav
+        %li
+          %a{href: "#slider"}= t('menu_home')
+        %li
+          %a{href: "#about"}= t('menu_about')
+        %li
+          %a{href: "#project"}= t('menu_project')
+        %li
+          %a{href: "#preview"}= t('menu_dev')
+        %li
+          %a{href: "#team"}= t('menu_team')
+        %li
+          %a{href: "#contact"}= t('menu_contact')
+        %li
+          %a{"data-target" => "#modalLang", "data-toggle" => "modal", href: "#"}
+            = image_tag 'lang/'+@curlang+'.png'
+            %img{src: "/img/lang/arrow_down.png"}/
+
+#slider.row{ :class => (@curlang=='pt') ? 'slider-pt' : 'slider'}
+  .container
+    .newsletter.newsletter.col-md-4.col-md-offset-4.text-center
+      %h1.title= t('slider_title')
+      %p.subtitle= t('slider_subtitle')
+      %a.btn.btn-primary{href: 'http://konsento.org'}= t('slider_konsento')
+
+#about.row
+  .container
+    .col-md-4
+      %img{src: "/img/icon-info.png"}/
+      %p.title!= t('what_title')
+      %p.text!= t('what_content')
+    .col-md-4
+      %img{src: "/img/icon-how.png"}/
+      %p.title!= t('how_title')
+      %p.text!= t('how_content')
+    .col-md-4
+      %img{src: "/img/icon-why.png"}/
+      %p.title!= t('why_title')
+      %p.text!= t('why_content')
+  .container
+    .col-md-12
+      .flex-video.widescreen
+        %iframe{:allowFullScreen => "true", :height => "430", :width => "100%", :frameborder => "0", :src => "http://www.youtube.com/embed/LBc26CnvvKE"}
+
+#project.row
+  .container
+    .col-md-12
+      %h1!= t('project_title')
+      %p!= t('project_content')
+
+#preview.row
+  .container
+    .col-md-12
+      %h1!= t('preview_title')
+      %p!= t('preview_content')
+    .col-md-3.image
+      %a{:href => "img/preview/1.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/1.png"}/
+      %div.description= t('preview_groups')
+    .col-md-3.image
+      %a{:href => "img/preview/3.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/3.png"}/
+      %div.description= t('preview_subgroups')
+    .col-md-3.image
+      %a{:href => "img/preview/2.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/2.png"}/
+      %div.description= t('preview_topics')
+    .col-md-3.image
+      %a{:href => "img/preview/4.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/4.png"}/
+      %div.description= t('preview_topic')
+    .col-md-3.image
+      %a{:href => "img/preview/5.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/5.png"}/
+      %div.description= t('preview_comments')
+    .col-md-3.image
+      %a{:href => "img/preview/6.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/6.png"}/
+      %div.description= t('preview_profile')
+    .col-md-3.image
+      %a{:href => "img/preview/7.png", :target => "_blank"}
+        %img{:src => "img/preview/thumbs/7.png"}/
+      %div.description= t('preview_signin')
+
+#team.row
+  .container
+    .col-md-12
+      %h1!= t('team_title')
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/fabio-tanaka.jpg", :alt => "Fabio Tanaka"}/
+      %div.title Fabio Tanaka
+      %div.role= t('team_role_1')
+      %div.links
+        %a{:href => "https://www.facebook.com/fbtanaka", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/guilherme-ruiz.jpg", :alt => "Guilherme Ruiz"}/
+      %div.title Guilherme Ruiz
+      %div.role= t('team_role_2')
+      %div.links
+        %a{:href => "https://www.facebook.com/guiiruiz", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+        %a{:href => "http://guilhermeruiz.com.br/", :target => "_blank"}
+          %img{:src => "img/icon-url-small.png", :alt => ""}/
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/sandoval-matos.jpg", :alt => "Sandoval Matos"}/
+      %div.title Sandoval Matos
+      %div.role= t('team_role_5')
+      %div.links
+        %a{:href => "https://www.facebook.com/sandovaldanilo", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/daniel-gonzalez.jpg", :alt => "Daniel González"}/
+      %div.title Daniel González
+      %div.role= t('team_role_6')
+      %div.links
+        %a{:href => "https://www.facebook.com/daniel.gonzalez.31508", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/louis-duclot.jpg", :alt => "Louis Margot-Duclot"}/
+      %div.title Louis Margot-Duclot
+      %div.role= t('team_role_7')
+      %div.links
+        %a{:href => "https://www.facebook.com/louis.md", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/daniel-macneed.jpg", :alt => "Daniel Macneed S"}/
+      %div.title Daniel Macneed
+      %div.role= t('team_role_8')
+      %div.links
+        %a{:href => "https://www.facebook.com/daniel.macneedsucupira", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+
+    .col-md-3.col-sm-6.contributor
+      %div.image
+        %img{:src => "img/team/join-us.png", :alt => "Join us"}/
+      %div.title= t('join_us')
+      %div.role= t('read_more')
+      %div.links
+        %a{:href => "https://www.facebook.com/groups/dddcp", :target => "_blank"}
+          %img{:src => "img/icon-fb-small.png", :alt => ""}/
+
+#contact.row
+  .container
+    .col-md-12
+      %h1!= t('contact_title')
+      %p!= t('contact_content')
+    .col-md-4.social
+      %a{href: "https://www.facebook.com/konsentodd", target: "blank"}
+        %img{src: "img/icon-face.png"}/
+    .col-md-4.social
+      %a{href: "https://www.facebook.com/groups/dddcp/", target: "blank"}
+        %img{src: "img/icon-group.png"}/
+    .col-md-4.social
+      %a{href: "mailto:w34521@msn.com", target: "blank"}
+        %img{src: "img/icon-mail.png"}/
+
+%footer
+  .row
+    .container
+      %p
+        = t('footer_name')
+        \- 2015
+
+#modalLang.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "modalLangLabel", role: "dialog", tabindex: "-1"}
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{"data-dismiss" => "modal", type: "button"}
+          %span{"aria-hidden" => "true"} ×
+          %span.sr-only Close
+        %h4#modalLangLabel.modal-title= 'Select your language'
+      .modal-body
+        .row
+          .col-xs-6
+            = link_to(image_tag('lang/en.png')+' English', change_locale_path('en'))
+          .col-xs-6
+            = link_to(image_tag('lang/es.png')+' Español', change_locale_path('es'))
+          .col-xs-6
+            = link_to(image_tag('lang/ko.png')+' 한국의', change_locale_path('ko'))
+          .col-xs-6
+            = link_to(image_tag('lang/pt.png')+' Português', change_locale_path('pt'))
+          .col-xs-6
+            = link_to(image_tag('lang/eo.png')+' Esperanto', change_locale_path('eo'))
+          .col-xs-6
+            = link_to(image_tag('lang/ru.png')+' русский (Google Translate)', 'https://translate.google.com.br/translate?sl=en&tl=ru&js=y&prev=_t&hl=pt-BR&ie=UTF-8&u=http%3A%2F%2Fkonsento.org%2F&edit-text=')
+          .col-xs-6
+            = link_to(image_tag('lang/jp.png')+' 日本人 (Google Translate)', 'https://translate.google.com.br/translate?hl=pt-BR&sl=en&tl=ja&u=http%3A%2F%2Fkonsento.org%2F')
+          .col-xs-6
+            = link_to(image_tag('lang/cn.png')+' 中国 (Google Translate)', 'https://translate.google.com.br/translate?hl=pt-BR&sl=en&tl=zh-CN&u=http%3A%2F%2Fkonsento.org%2F')
+          .col-xs-6
+            = link_to(image_tag('lang/globe.gif')+'Others (Google Translate)' , 'https://translate.google.com.br/#en/pt/http%3A%2F%2Fkonsento.org%2F')
+          .col-xs-12
+            = 'Contact us and help to translate Konsento for your language.'
+      .modal-footer
+        %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}= 'Close'
+
+- flash.each do |name, msg|
+  #modalSuccess.autoOpen.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "modalSuccessLabel", :role => "dialog", :tabindex => "-1"}
+    .modal-dialog
+      .modal-content
+        .modal-header
+          %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+            %span{"aria-hidden" => "true"} ×
+          %h4#modalSuccessLabel.modal-title Aviso
+        .modal-body
+          = msg
+        .modal-footer
+          %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Fechar

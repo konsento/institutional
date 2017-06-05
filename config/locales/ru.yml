@@ -1,0 +1,78 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ru:
+  # Page title and menu items
+  page_title:                "Konsento"
+  title:                     "Konsento"
+  menu_home:                 "Home"
+  menu_about:                "About"
+  menu_project:              "Project"
+  menu_dev:                  "Development"
+  menu_contact:              "Contact"
+  menu_team:                 "Team"
+  # Slider
+  slider_title:              "Присоединяйся!"
+  slider_subtitle:           "Нажмите ниже и зарегистрироваться."
+  slider_konsento:           "Перейти к Konsento.org"
+  slider_email_placeholder:  "youremail@email.com"
+  slider_send_button:        " Ok"
+  # Content columns - What is
+  what_title:                "What is Konsento?"
+  what_content:              "We are a non-governmental organization that wants what’s best for Brazil and its people.<br>Our goal is to give a voice to as many Brazilians as possible, helping them to decide how elaborate laws and regulations that govern this county, such as improvements on public transportation, health care, and their lives as a whole.<br>Only then, people will have their money well spent on quality public services.<br>We are developing and providing software where ordinary people, who have access to the internet, can discuss how to apply those improvements and what they would be. <br>Our server is always going be available and free for everyone. Thus, we will be able to avoid frauds, and text and voting manipulations.<br>We’ve created this instrument of political discussion to avoid external influences, e.g. large companies interested in the approval of some measurement that benefits themselves. The software is free from that sort of issue; the majority of people decide which topic is referred to the politicians. Only the concerned party, i.e. the people, will be benefited."
+  # Content columns - How
+  how_title:                 "КАК ЭТО БУДЕТ РАБОТАТЬ?"
+  how_content:               "Граждане смогут зарегистрироваться на сайте при помощи документа, удостоверяющего личность, номера социального страхования, документов для голосования и т.д. В случае наличия у гражданина университетской степени или титула, он может сообщить о своем желании, чтобы именно это указывали в качестве его идентификатора на форуме.<br>После окончания регистрации люди смогут участвовать в обсуждениях и оставлять свои сообщения на форуме, выражать свое мнение, объясняющие, почему они считают то или иное предложение полезным или вредным для страны. Они также смогут создавать новые темы для обсуждения, защищая свою точку зрения и пытаясь склонить других на свою сторону.<br>Когда создается новая ветка с новой темой, пользователи смогут ее обсуждать, а текст будет предложен для голосования, как в Сенате или Парламенте. Как только данная проблема должным образом одобрена и по ней проведено голосование, по которому большинством голосов принято определенное решение, наша общественная организация начнет оказывать давление на политиков с тем, чтобы они проанализировали, обсудили и начали с ней работать.<br>Все обсуждения на форуме проходят без привлечения посредников по улаживанию споров, что способствует свободе слова и выражения, ставших причиной создания данного программного обеспечения.<br>Данное программное обеспечение является негосударственным. Оно было разработано для того, чтобы любой человек мог выразить свое мнение, независимо от его политических взглядов. Политические партии и течения также будут иметь к нему доступ, чтобы они могли следить за обсуждениями."
+  # Content columns - Why
+  why_title:                 "С КАКОЙ ЦЕЛЬЮ СОЗДАНА ПРОГРАММА?"
+  why_content:               "Она создает людям условия для обсуждения их мнений и донесения их мнений и желаний до тех, кто управляет страной.<br>Это единственный способ заставить сенаторов и конгрессменов услышать мнение тех, кто их избрал. В противном случае им придется спрашивать каждого гражданина отдельно, как они относятся к тому, куда идет страна. При помощи данного программного обеспечения это задача становится осуществимой и простой. Мы станем ближе к Сенату и Парламенту.<br>"
+  # Project
+  project_title:             "Help us to change the country!"
+  project_content:           "Join and help us to build a solution to intermediate between the people and the politicians.<br><br>Follow and join our project on github:<br><a href='https://github.com/konsento/institutional' target='_blank'>https://github.com/konsento/institutional</a>"
+  # Contact
+  contact_title:             "Contact us"
+  contact_content:           "For more details, contact us using the links below."
+  # Team
+  team_title:                "Team"
+  team_role_1:               "President"
+  team_role_2:               "Vice-President and Developer"
+  team_role_3:               "Developer"
+  team_role_4:               "Developer"
+  team_role_5:               "Developer"
+  team_role_6:               "Representative in Spain"
+  team_role_7:               "Representative in France"
+  team_role_8:               "Creative Director"
+  join_us:                   "Join us!"
+  read_more:                 "Click to read more"
+  # Preview
+  preview_title:             "Development"
+  preview_content:           "See below Konsento's development progress."
+  preview_groups:            "Groups"
+  preview_subgroups:         "Subgroups"
+  preview_topics:            "Topics"
+  preview_topic:             "Topic's discussion"
+  preview_comments:          "Proposal comments"
+  preview_profile:           "Profile"
+  preview_signin:            "Sign In"
+  # Footer
+  footer_name:               "Konsento - Direct Democracy Digital Progressive Consensus"
+  #Modal
+  select_lang:               "Select your language"
+  close:                     "Close"
