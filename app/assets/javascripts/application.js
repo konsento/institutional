@@ -24,7 +24,6 @@ $(document).ready(function() {
 
   $('a[href*="#"]:not([href="#"])').click(function() {
     locat = $(this).attr('href');
-    console.log(locat);
 
     $('html,body').stop(true, false).animate({
       scrollTop: ($(locat).offset().top - 10 - $(".navbar").height())
