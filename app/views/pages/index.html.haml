@@ -20,8 +20,6 @@
         %li
           %a{href: "#preview"}= t('menu_dev')
         %li
-          %a{href: "#team"}= t('menu_team')
-        %li
           %a{href: "#contact"}= t('menu_contact')
         %li
           %a{"data-target" => "#modalLang", "data-toggle" => "modal", href: "#"}
@@ -93,70 +91,6 @@
       %a{:href => "img/preview/7.png", :target => "_blank"}
         %img{:src => "img/preview/thumbs/7.png"}/
       %div.description= t('preview_signin')
-
-#team.row
-  .container
-    .col-md-12
-      %h1!= t('team_title')
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/fabio-tanaka.jpg", :alt => "Fabio Tanaka"}/
-      %div.title Fabio Tanaka
-      %div.role= t('team_role_1')
-      %div.links
-        %a{:href => "https://www.facebook.com/fbtanaka", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/guilherme-ruiz.jpg", :alt => "Guilherme Ruiz"}/
-      %div.title Guilherme Ruiz
-      %div.role= t('team_role_2')
-      %div.links
-        %a{:href => "https://www.facebook.com/guiiruiz", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
-        %a{:href => "http://guilhermeruiz.com.br/", :target => "_blank"}
-          %img{:src => "img/icon-url-small.png", :alt => ""}/
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/sandoval-matos.jpg", :alt => "Sandoval Matos"}/
-      %div.title Sandoval Matos
-      %div.role= t('team_role_5')
-      %div.links
-        %a{:href => "https://www.facebook.com/sandovaldanilo", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/daniel-gonzalez.jpg", :alt => "Daniel González"}/
-      %div.title Daniel González
-      %div.role= t('team_role_6')
-      %div.links
-        %a{:href => "https://www.facebook.com/daniel.gonzalez.31508", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/louis-duclot.jpg", :alt => "Louis Margot-Duclot"}/
-      %div.title Louis Margot-Duclot
-      %div.role= t('team_role_7')
-      %div.links
-        %a{:href => "https://www.facebook.com/louis.md", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/daniel-macneed.jpg", :alt => "Daniel Macneed S"}/
-      %div.title Daniel Macneed
-      %div.role= t('team_role_8')
-      %div.links
-        %a{:href => "https://www.facebook.com/daniel.macneedsucupira", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
-
-    .col-md-3.col-sm-6.contributor
-      %div.image
-        %img{:src => "img/team/join-us.png", :alt => "Join us"}/
-      %div.title= t('join_us')
-      %div.role= t('read_more')
-      %div.links
-        %a{:href => "https://www.facebook.com/groups/dddcp", :target => "_blank"}
-          %img{:src => "img/icon-fb-small.png", :alt => ""}/
 
 #contact.row
   .container

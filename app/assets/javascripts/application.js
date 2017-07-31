@@ -22,8 +22,9 @@ $(document).ready(function() {
   $("#slider").height(windowHei-30);
   $(".newsletter").css("margin-top", ($("#slider").height() - $(".newsletter").height())/2);
 
-  $('a[href*=#]:not([href=#])').click(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
     locat = $(this).attr('href');
+    console.log(locat);
 
     $('html,body').stop(true, false).animate({
       scrollTop: ($(locat).offset().top - 10 - $(".navbar").height())
